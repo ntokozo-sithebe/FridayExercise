@@ -10,40 +10,36 @@
 
 // 1. Use the following id="heading" to change the heading(This is the main heading) of the html to 'Javascript', DO NOT USE QUERY SELECTOR
 
-const heading = document.getElementById(heading)
-heading.document = ('Javascript')
-
-function heading(){
-    document.getElementById("h2");
-}
-heading('Javascript')
+let head = document.getElementById(heading)
+head.innerText= 'Javascript'
 
 
 // 2. Use the class='paragraph' and change the information to 'This is a language I have mastered and I am proud of myself. I complished this because I believed in myself'
 
-const paragraph = document.getElementsByClassName(paragraph)
-paragraph = ('This is a language I have mastered and I am proud of myself. I complished this because I believed in myself')
+let para = document.getElementsByClassName(paragraph)
+para.innerText = 'This is a language I have mastered and I am proud of myself. I complished this because I believed in myself'
 
 
 // 3. Use the h3 element and change the heading(Subheading) to 'Things I've accomplished so far'. Hint: use querySelector
 
-const subHeading = document.querySelector(['data-subHeading'])
-data-subHeading = ('Things I have accomplished so far')
+let subHeading = document.querySelector(['data-subHeading'])
+subHeading.innerText = 'Things I have accomplished so far'
 
 // 4. Change the paragraph below Question3(above) to 'I have discovered that I can accomplish anything I put my mind to'Hint: Use querySelectorAll and index or use getElementByTagName and index
 
-
+let newSubheading = document.querySelectorAll('[]')
+newSubheading.innerText = 'I have discovered that I can accomplish anything I put my mind to'
 
 // So far you have hints, however the hints have lessened.
 // 5.1. Attach the first input to a variable
-const input = document.querySelectorAll(data-firstMultiply)
+let input = document.querySelectorAll(data-firstMultiply)
 
 
 // 5.2. Attach the second input to a variable
-const input2 = document.querySelectorAll(data-secondMultiply)
+let input2 = document.querySelectorAll(data-secondMultiply)
 
 // 5.3. Attach the FIRST button to a variable(going to add an eventListener to button)
-const btnCal = document.querySelectorAll('[data-secondMultiply]');
+let btnCal = document.querySelectorAll('[data-secondMultiply]');
 btnCal.addEventListener('click', )
 
 // 5.4. Attach the FIRST span element to a variable(To display the information to)
